@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Gallery | Taj Al Sharq United — Construction & Equipment In Action</title>
+    <meta name="description" content="View photos of Taj Al Sharq United's construction sites, heavy equipment and project teams at work across Saudi Arabia.">
+    <link rel="canonical" href="gallery.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/logo-mark.png" type="image/png">
+</head>
+<body>
+
+<div class="page-loader">
+    <div class="loader-mark">
+        <img src="assets/img/logo-mark.png" alt="Loading Taj Al Sharq United">
+        <div class="loader-bar"><span></span></div>
+    </div>
+</div>
+
+<header class="site-navbar">
+    <div class="container-xl-custom navbar-inner">
+        <a href="index.html" class="brand-mark">
+            <img src="assets/img/logo-mark.png" alt="Taj Al Sharq United logo">
+            <span class="brand-type">Taj Al Sharq<small>United &mdash; Jeddah, KSA</small></span>
+        </a>
+        <nav class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="equipment.html">Equipment</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="d-flex align-items-center gap-3">
+            <a href="tel:+966538617608" class="btn-nav-cta d-none d-lg-inline-flex"><i class="bi bi-telephone-fill me-1"></i> 053 861 7608</a>
+            <button class="navbar-toggler-custom" id="navToggler" aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+        </div>
+    </div>
+</header>
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+    <div class="hero-bg"><img src="assets/img/excavator-square.jpg" alt="Excavator at a construction site"></div>
+    <div class="hero-scrim"></div>
+    <div class="container-xl-custom hero-content">
+        <div class="eyebrow" data-aos="fade-up">Our Work</div>
+        <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100" style="font-size:clamp(2.2rem,4.6vw,3.6rem);">Project Gallery</h1>
+        <div class="breadcrumb-trail" data-aos="fade-up" data-aos-delay="200">
+            <a href="index.html">Home</a><span class="sep">/</span><span>Gallery</span>
+        </div>
+    </div>
+</section>
+
+<!-- GALLERY GRID -->
+<section class="section-pad">
+    <div class="container-xl-custom">
+        <div class="row align-items-end mb-4">
+            <div class="col-lg-7" data-aos="fade-up">
+                <div class="eyebrow">Sites &amp; Machinery</div>
+                <h2 class="section-title">A Look At Our Projects</h2>
+            </div>
+        </div>
+
+        <div class="filter-pills mb-5" data-filter-group="#galleryGrid" data-aos="fade-up">
+            <button class="filter-pill active" data-filter="all">All</button>
+            <button class="filter-pill" data-filter="equipment">Equipment</button>
+            <button class="filter-pill" data-filter="site">Site Works</button>
+            <button class="filter-pill" data-filter="team">Our Team</button>
+        </div>
+
+        <div class="row g-3" id="galleryGrid">
+            <div class="col-6 col-lg-4" data-category="site" data-aos="fade-up">
+                <div class="gallery-item">
+                    <img src="assets/img/hero-excavator-sunset.jpg" alt="Excavator and truck on site at sunset" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Site Works</div><div class="gal-title">Earthworks at Sunset</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="equipment" data-aos="fade-up" data-aos-delay="50">
+                <div class="gallery-item">
+                    <img src="assets/img/excavator-loading-truck.jpg" alt="Excavator loading a dump truck" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Equipment</div><div class="gal-title">Excavator Loading</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="equipment" data-aos="fade-up" data-aos-delay="100">
+                <div class="gallery-item">
+                    <img src="assets/img/crane-tower-site.jpg" alt="Tower crane on construction site" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Equipment</div><div class="gal-title">Tower Crane Operation</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="team" data-aos="fade-up" data-aos-delay="150">
+                <div class="gallery-item">
+                    <img src="assets/img/workers-walking-site.jpg" alt="Site crew walking at sunset" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Our Team</div><div class="gal-title">Crew On Site</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="equipment" data-aos="fade-up" data-aos-delay="200">
+                <div class="gallery-item">
+                    <img src="assets/img/excavator-arm-closeup.jpg" alt="Excavator arm close-up" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Equipment</div><div class="gal-title">Excavator Detail</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="team" data-aos="fade-up" data-aos-delay="250">
+                <div class="gallery-item">
+                    <img src="assets/img/welder-worker.jpg" alt="Welder at work" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Our Team</div><div class="gal-title">Certified Welder</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="site" data-aos="fade-up">
+                <div class="gallery-item">
+                    <img src="assets/img/about-site-overview.jpg" alt="Construction site overview" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Site Works</div><div class="gal-title">Site Overview</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="team" data-aos="fade-up" data-aos-delay="50">
+                <div class="gallery-item">
+                    <img src="assets/img/steel-fixer-worker.jpg" alt="Steel fixer at work" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Our Team</div><div class="gal-title">Steel Fixing Crew</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="site" data-aos="fade-up" data-aos-delay="100">
+                <div class="gallery-item">
+                    <img src="assets/img/welding-sparks.jpg" alt="Welding sparks on site" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Site Works</div><div class="gal-title">Fabrication Works</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="equipment" data-aos="fade-up" data-aos-delay="150">
+                <div class="gallery-item">
+                    <img src="assets/img/loader-site.jpg" alt="Loader on site" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Equipment</div><div class="gal-title">Backhoe Loader</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="equipment" data-aos="fade-up" data-aos-delay="200">
+                <div class="gallery-item">
+                    <img src="assets/img/crane-loading-truck.jpg" alt="Crane loading a truck" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Equipment</div><div class="gal-title">Loading Operations</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-4" data-category="site" data-aos="fade-up" data-aos-delay="250">
+                <div class="gallery-item">
+                    <img src="assets/img/excavator-square.jpg" alt="Excavator working on site" loading="lazy">
+                    <div class="gal-overlay"><div><div class="gal-cat">Site Works</div><div class="gal-title">Active Job Site</div></div></div>
+                    <div class="gal-zoom"><i class="bi bi-arrows-fullscreen"></i></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="section-pad-sm">
+    <div class="container-xl-custom">
+        <div class="cta-band" data-aos="zoom-in">
+            <div class="cta-bg"><img src="assets/img/about-site-overview.jpg" alt="Construction site"></div>
+            <div class="cta-scrim"></div>
+            <div class="cta-inner">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-8">
+                        <div class="eyebrow">Let's Build Together</div>
+                        <h2 class="section-title section-title--light mb-0">See Your Project On This Wall Next</h2>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a href="contact.html" class="btn-industrial btn-industrial-primary">Get In Touch <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-top">
+        <div class="container-xl-custom">
+            <div class="row gy-5">
+                <div class="col-lg-4">
+                    <div class="footer-brand"><img src="assets/img/logo-horizontal-gold.png" alt="Taj Al Sharq United"></div>
+                    <p class="footer-about">Taj Al Sharq United Company delivers integrated construction, heavy equipment rental, transportation and skilled manpower solutions across the Kingdom of Saudi Arabia.</p>
+                    <div class="social-row">
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="footer-heading">Company</h5>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Our Services</a></li>
+                        <li><a href="equipment.html">Equipment</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h5 class="footer-heading">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Construction Works</a></li>
+                        <li><a href="services.html">Equipment Rental</a></li>
+                        <li><a href="services.html">Transportation</a></li>
+                        <li><a href="services.html">Manpower Supply</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="footer-heading">Get In Touch</h5>
+                    <ul class="footer-links">
+                        <li><i class="bi bi-geo-alt-fill text-gold me-2"></i>Al-Furusiyah Dist., Omar Ibrahim Al-Shajri St., Jeddah, Saudi Arabia</li>
+                        <li><i class="bi bi-envelope-fill text-gold me-2"></i><a href="mailto:Info@tajco.com">Info@tajco.com</a></li>
+                        <li><i class="bi bi-telephone-fill text-gold me-2"></i><a href="tel:+966538617608">053 861 7608</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container-xl-custom d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+            <p>&copy; <span id="footerYear"></span> Taj Al Sharq United Company. All rights reserved.</p>
+            <p>Construction &amp; Heavy Equipment Rental — Jeddah, Saudi Arabia</p>
+        </div>
+    </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+<!-- Lightbox -->
+<div class="lightbox-overlay">
+    <button class="lightbox-close" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+    <img src="" alt="">
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
