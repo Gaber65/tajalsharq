@@ -1,0 +1,38 @@
+{
+  "pageHero": {
+    "eyebrow": "أعمالنا",
+    "title": "معرض المشاريع",
+    "breadcrumbHome": "الرئيسية",
+    "breadcrumbCurrent": "المعرض"
+  },
+  "gallery": {
+    "eyebrow": "المواقع والآليات",
+    "title": "نظرة على مشاريعنا"
+  },
+  "galleryItems": {
+    "item1Cat": "أعمال الموقع",
+    "item1Title": "أعمال الحفر عند الغروب",
+    "item2Cat": "المعدات",
+    "item2Title": "حفارة تُحمّل",
+    "item3Cat": "المعدات",
+    "item3Title": "تشغيل الرافعة البرجية",
+    "item4Cat": "فريقنا",
+    "item4Title": "الطاقم في الموقع",
+    "item5Cat": "المعدات",
+    "item5Title": "تفاصيل الحفارة",
+    "item6Cat": "فريقنا",
+    "item6Title": "لحام معتمد",
+    "item7Cat": "أعمال الموقع",
+    "item7Title": "نظرة عامة على الموقع",
+    "item8Cat": "فريقنا",
+    "item8Title": "طاقم إصلاح الحديد",
+    "item9Cat": "أعمال الموقع",
+    "item9Title": "أعمال التصنيع",
+    "item10Cat": "المعدات",
+    "item10Title": "لودر بحافة خلفية",
+    "item11Cat": "المعدات",
+    "item11Title": "عمليات التحميل",
+    "item12Cat": "أعمال الموقع",
+    "item12Title": "موقع عمل نشط"
+  }
+}

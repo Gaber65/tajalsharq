@@ -1,0 +1,113 @@
+{
+  "filters": ["all", "equipment", "site", "team"],
+  "items": [
+    {
+      "id": "g1",
+      "image": "assets/img/hero-excavator-sunset.jpg",
+      "alt": "Excavator and truck on site at sunset",
+      "category": "site",
+      "catKey": "galleryItems.item1Cat",
+      "titleKey": "galleryItems.item1Title",
+      "delay": 0
+    },
+    {
+      "id": "g2",
+      "image": "assets/img/excavator-loading-truck.jpg",
+      "alt": "Excavator loading a dump truck",
+      "category": "equipment",
+      "catKey": "galleryItems.item2Cat",
+      "titleKey": "galleryItems.item2Title",
+      "delay": 50
+    },
+    {
+      "id": "g3",
+      "image": "assets/img/crane-tower-site.jpg",
+      "alt": "Tower crane on construction site",
+      "category": "equipment",
+      "catKey": "galleryItems.item3Cat",
+      "titleKey": "galleryItems.item3Title",
+      "delay": 100
+    },
+    {
+      "id": "g4",
+      "image": "assets/img/workers-walking-site.jpg",
+      "alt": "Site crew walking at sunset",
+      "category": "team",
+      "catKey": "galleryItems.item4Cat",
+      "titleKey": "galleryItems.item4Title",
+      "delay": 150
+    },
+    {
+      "id": "g5",
+      "image": "assets/img/excavator-arm-closeup.jpg",
+      "alt": "Excavator arm close-up",
+      "category": "equipment",
+      "catKey": "galleryItems.item5Cat",
+      "titleKey": "galleryItems.item5Title",
+      "delay": 200
+    },
+    {
+      "id": "g6",
+      "image": "assets/img/welder-worker.jpg",
+      "alt": "Welder at work",
+      "category": "team",
+      "catKey": "galleryItems.item6Cat",
+      "titleKey": "galleryItems.item6Title",
+      "delay": 250
+    },
+    {
+      "id": "g7",
+      "image": "assets/img/about-site-overview.jpg",
+      "alt": "Construction site overview",
+      "category": "site",
+      "catKey": "galleryItems.item7Cat",
+      "titleKey": "galleryItems.item7Title",
+      "delay": 0
+    },
+    {
+      "id": "g8",
+      "image": "assets/img/steel-fixer-worker.jpg",
+      "alt": "Steel fixer at work",
+      "category": "team",
+      "catKey": "galleryItems.item8Cat",
+      "titleKey": "galleryItems.item8Title",
+      "delay": 50
+    },
+    {
+      "id": "g9",
+      "image": "assets/img/welding-sparks.jpg",
+      "alt": "Welding sparks on site",
+      "category": "site",
+      "catKey": "galleryItems.item9Cat",
+      "titleKey": "galleryItems.item9Title",
+      "delay": 100
+    },
+    {
+      "id": "g10",
+      "image": "assets/img/loader-site.jpg",
+      "alt": "Loader on site",
+      "category": "equipment",
+      "catKey": "galleryItems.item10Cat",
+      "titleKey": "galleryItems.item10Title",
+      "delay": 150
+    },
+    {
+      "id": "g11",
+      "image": "assets/img/crane-loading-truck.jpg",
+      "alt": "Crane loading a truck",
+      "category": "equipment",
+      "catKey": "galleryItems.item11Cat",
+      "titleKey": "galleryItems.item11Title",
+      "delay": 200
+    },
+    {
+      "id": "g12",
+      "image": "assets/img/excavator-square.jpg",
+      "alt": "Excavator working on site",
+      "category": "site",
+      "catKey": "galleryItems.item12Cat",
+      "titleKey": "galleryItems.item12Title",
+      "delay": 250
+    }
+  ]
+}

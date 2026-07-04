@@ -1,0 +1,139 @@
+{
+  "filters": ["all", "cranes", "earthmoving", "access", "power"],
+  "items": [
+    {
+      "id": "telehandler",
+      "image": "assets/img/excavator-arm-closeup.jpg",
+      "category": "cranes access",
+      "tagCode": "EQ / 01",
+      "catKey": "equipItems.telehandlerCat",
+      "nameKey": "equipItems.telehandlerName",
+      "spec1Icon": "bi-arrows-vertical",
+      "spec1Key": "equipItems.telehandlerSpec1",
+      "spec2Icon": "bi-speedometer2",
+      "spec2Key": "equipItems.telehandlerSpec2",
+      "delay": 0
+    },
+    {
+      "id": "skidLoader",
+      "image": "assets/img/loader-site.jpg",
+      "category": "power",
+      "tagCode": "EQ / 02",
+      "catKey": "equipItems.skidLoaderCat",
+      "nameKey": "equipItems.skidLoaderName",
+      "spec1Icon": "bi-arrows-angle-contract",
+      "spec1Key": "equipItems.skidLoaderSpec1",
+      "spec2Icon": "bi-speedometer2",
+      "spec2Key": "equipItems.skidLoaderSpec2",
+      "delay": 50
+    },
+    {
+      "id": "mobileCrane",
+      "image": "assets/img/crane-tower-site.jpg",
+      "category": "cranes",
+      "tagCode": "EQ / 03",
+      "catKey": "equipItems.mobileCraneCat",
+      "nameKey": "equipItems.mobileCraneName",
+      "spec1Icon": "bi-arrows-vertical",
+      "spec1Key": "equipItems.mobileCraneSpec1",
+      "spec2Icon": "bi-speedometer2",
+      "spec2Key": "equipItems.mobileCraneSpec2",
+      "delay": 100
+    },
+    {
+      "id": "manlift",
+      "image": "assets/img/crane-loading-truck.jpg",
+      "category": "access",
+      "tagCode": "EQ / 04",
+      "catKey": "equipItems.manliftCat",
+      "nameKey": "equipItems.manliftName",
+      "spec1Icon": "bi-arrows-vertical",
+      "spec1Key": "equipItems.manliftSpec1",
+      "spec2Icon": "bi-speedometer2",
+      "spec2Key": "equipItems.manliftSpec2",
+      "delay": 150
+    },
+    {
+      "id": "scissorLift",
+      "image": "assets/img/welding-sparks.jpg",
+      "category": "access",
+      "tagCode": "EQ / 05",
+      "catKey": "equipItems.scissorLiftCat",
+      "nameKey": "equipItems.scissorLiftName",
+      "spec1Icon": "bi-arrows-vertical",
+      "spec1Key": "equipItems.scissorLiftSpec1",
+      "spec2Icon": "bi-speedometer2",
+      "spec2Key": "equipItems.scissorLiftSpec2",
+      "delay": 0
+    },
+    {
+      "id": "excavator",
+      "image": "assets/img/excavator-loading-truck.jpg",
+      "category": "earthmoving",
+      "tagCode": "EQ / 06",
+      "catKey": "equipItems.excavatorCat",
+      "nameKey": "equipItems.excavatorName",
+      "spec1Icon": "bi-arrows-angle-contract",
+      "spec1Key": "equipItems.excavatorSpec1",
+      "spec2Icon": "bi-speedometer2",
+      "spec2Key": "equipItems.excavatorSpec2",
+      "delay": 50
+    },
+    {
+      "id": "generator",
+      "image": "assets/img/excavator-square.jpg",
+      "category": "power",
+      "tagCode": "EQ / 07",
+      "catKey": "equipItems.generatorCat",
+      "nameKey": "equipItems.generatorName",
+      "spec1Icon": "bi-lightning-charge",
+      "spec1Key": "equipItems.generatorSpec1",
+      "spec2Icon": "bi-fuel-pump",
+      "spec2Key": "equipItems.generatorSpec2",
+      "delay": 100
+    },
+    {
+      "id": "backhoe",
+      "image": "assets/img/loader-site.jpg",
+      "category": "earthmoving",
+      "tagCode": "EQ / 08",
+      "catKey": "equipItems.backhoeCat",
+      "nameKey": "equipItems.backhoeName",
+      "spec1Icon": "bi-arrows-angle-contract",
+      "spec1Key": "equipItems.backhoeSpec1",
+      "spec2Icon": "bi-speedometer2",
+      "spec2Key": "equipItems.backhoeSpec2",
+      "delay": 150
+    }
+  ],
+  "manpower": [
+    {
+      "id": "plumbers",
+      "icon": "bi-wrench-adjustable",
+      "titleKey": "manpower.plumbersTitle",
+      "descKey": "manpower.plumbersDesc",
+      "delay": 0
+    },
+    {
+      "id": "welders",
+      "icon": "bi-lightning",
+      "titleKey": "manpower.weldersTitle",
+      "descKey": "manpower.weldersDesc",
+      "delay": 100
+    },
+    {
+      "id": "steelFixers",
+      "icon": "bi-grid-3x3",
+      "titleKey": "manpower.steelFixersTitle",
+      "descKey": "manpower.steelFixersDesc",
+      "delay": 200
+    },
+    {
+      "id": "drivers",
+      "icon": "bi-steering-wheel",
+      "titleKey": "manpower.driversTitle",
+      "descKey": "manpower.driversDesc",
+      "delay": 300
+    }
+  ]
+}

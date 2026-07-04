@@ -1,0 +1,137 @@
+{
+  "marquee": {
+    "items": [
+      { "icon": "bi-check-circle", "key": "construction" },
+      { "icon": "bi-check-circle", "key": "rental" },
+      { "icon": "bi-check-circle", "key": "transportation" },
+      { "icon": "bi-check-circle", "key": "manpower" },
+      { "icon": "bi-check-circle", "key": "integrated" }
+    ]
+  },
+  "whyUs": {
+    "features": [
+      { "index": "/ 01", "icon": "bi-shield-check", "titleKey": "whyUs.safetyTitle", "descKey": "whyUs.safetyDesc", "delay": 0 },
+      { "index": "/ 02", "icon": "bi-truck", "titleKey": "whyUs.fleetTitle", "descKey": "whyUs.fleetDesc", "delay": 100 },
+      { "index": "/ 03", "icon": "bi-clock-history", "titleKey": "whyUs.deliveryTitle", "descKey": "whyUs.deliveryDesc", "delay": 200 },
+      { "index": "/ 04", "icon": "bi-headset", "titleKey": "whyUs.supportTitle", "descKey": "whyUs.supportDesc", "delay": 300 }
+    ]
+  },
+  "categories": [
+    {
+      "id": "cranes",
+      "image": "assets/img/crane-tower-site.jpg",
+      "anchor": "#cranes",
+      "icon": "bi-arrows-angle-expand",
+      "cols": "col-6 col-lg-3",
+      "delay": 0
+    },
+    {
+      "id": "earthmoving",
+      "image": "assets/img/excavator-loading-truck.jpg",
+      "anchor": "#earthmoving",
+      "icon": "bi-cone-striped",
+      "cols": "col-6 col-lg-3",
+      "delay": 100
+    },
+    {
+      "id": "access",
+      "image": "assets/img/excavator-arm-closeup.jpg",
+      "anchor": "#access",
+      "icon": "bi-building-up",
+      "cols": "col-6 col-lg-3",
+      "delay": 200
+    },
+    {
+      "id": "power",
+      "image": "assets/img/loader-site.jpg",
+      "anchor": "#power",
+      "icon": "bi-lightning-charge",
+      "cols": "col-6 col-lg-3",
+      "delay": 300
+    }
+  ],
+  "featured": [
+    {
+      "id": "1",
+      "image": "assets/img/excavator-arm-closeup.jpg",
+      "tagCode": "EQ / 01",
+      "spec1Icon": "bi-arrows-vertical",
+      "spec2Icon": "bi-speedometer2"
+    },
+    {
+      "id": "2",
+      "image": "assets/img/crane-tower-site.jpg",
+      "tagCode": "EQ / 02",
+      "spec1Icon": "bi-arrows-vertical",
+      "spec2Icon": "bi-speedometer2"
+    },
+    {
+      "id": "3",
+      "image": "assets/img/excavator-loading-truck.jpg",
+      "tagCode": "EQ / 03",
+      "spec1Icon": "bi-arrows-angle-contract",
+      "spec2Icon": "bi-speedometer2"
+    },
+    {
+      "id": "4",
+      "image": "assets/img/loader-site.jpg",
+      "tagCode": "EQ / 04",
+      "spec1Icon": "bi-arrows-angle-contract",
+      "spec2Icon": "bi-speedometer2"
+    },
+    {
+      "id": "5",
+      "image": "assets/img/welding-sparks.jpg",
+      "tagCode": "EQ / 05",
+      "spec1Icon": "bi-lightning-charge",
+      "spec2Icon": "bi-fuel-pump"
+    },
+    {
+      "id": "6",
+      "image": "assets/img/crane-loading-truck.jpg",
+      "tagCode": "EQ / 06",
+      "spec1Icon": "bi-arrows-angle-contract",
+      "spec2Icon": "bi-speedometer2"
+    }
+  ],
+  "services": [
+    { "id": "construction", "icon": "bi-diagram-3", "titleKey": "services.constructionTitle", "descKey": "services.constructionDesc", "delay": 0 },
+    { "id": "rental", "icon": "bi-gear-wide-connected", "titleKey": "services.rentalTitle", "descKey": "services.rentalDesc", "delay": 100 },
+    { "id": "transport", "icon": "bi-truck-front", "titleKey": "services.transportTitle", "descKey": "services.transportDesc", "delay": 200 },
+    { "id": "manpower", "icon": "bi-people", "titleKey": "services.manpowerTitle", "descKey": "services.manpowerDesc", "delay": 0 },
+    { "id": "integrated", "icon": "bi-diagram-2", "titleKey": "services.integratedTitle", "descKey": "services.integratedDesc", "delay": 100 },
+    { "id": "support", "icon": "bi-headset", "titleKey": "services.supportTitle", "descKey": "services.supportDesc", "delay": 200 }
+  ],
+  "stats": [
+    { "icon": "bi-calendar3", "counter": 10, "labelKey": "stats.years", "delay": 0 },
+    { "icon": "bi-truck", "counter": 120, "labelKey": "stats.equipment", "delay": 100 },
+    { "icon": "bi-check2-square", "counter": 150, "labelKey": "stats.projects", "delay": 200 },
+    { "icon": "bi-people", "counter": 40, "labelKey": "stats.clients", "delay": 300 }
+  ],
+  "testimonials": [
+    { "id": "t1", "avatar": "HA", "roleKey": "testimonials.t1role" },
+    { "id": "t2", "avatar": "BEC", "roleKey": "testimonials.t2role" },
+    { "id": "t3", "avatar": "TMG", "roleKey": "testimonials.t3role" },
+    { "id": "t4", "avatar": "SS", "roleKey": "testimonials.t4role" }
+  ],
+  "clients": [
+    { "name": "BEC", "delay": 0 },
+    { "name": "Hassan Allam", "delay": 50 },
+    { "name": "Aramco", "delay": 100 },
+    { "name": "TMG", "delay": 150 },
+    { "name": "Solb Steel", "delay": 200 },
+    { "name": "Red Sea Global", "delay": 250 },
+    { "name": "Yamama Cement", "delay": 0 },
+    { "name": "Al Jouf Cement", "delay": 50 },
+    { "name": "Rajhi Steel", "delay": 100 },
+    { "name": "SEC", "delay": 150 },
+    { "name": "Al-Ittefaq Steel", "delay": 200 },
+    { "name": "Nova Contracting", "delay": 250 }
+  ],
+  "faq": [
+    { "id": "q1" },
+    { "id": "q2" },
+    { "id": "q3" },
+    { "id": "q4" }
+  ]
+}

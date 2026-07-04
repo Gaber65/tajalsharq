@@ -1,254 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Equipment Fleet | Taj Al Sharq United — Cranes, Excavators, Loaders & More</title>
 <meta name="description" content="Browse Taj Al Sharq United's heavy equipment fleet available for rental: telehandlers, mobile cranes, excavators, backhoe loaders, generators, manlifts, scissor lifts and skid loaders.">
-<link rel="canonical" href="equipment.html">
+<meta name="keywords" content="heavy equipment rental Jeddah, crane rental Saudi Arabia, excavator rental, telehandler, generator rental KSA, manlift rental">
 
+<!-- Open Graph -->
+<meta property="og:title" content="Equipment Fleet | Taj Al Sharq United — Cranes, Excavators, Loaders & More">
+<meta property="og:description" content="Browse Taj Al Sharq United's heavy equipment fleet available for rental: telehandlers, mobile cranes, excavators, backhoe loaders, generators, manlifts, scissor lifts and skid loaders.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tajalsharq.com/equipment.html">
+<meta property="og:image" content="assets/img/excavator-arm-closeup.jpg">
+<meta property="og:site_name" content="Taj Al Sharq United">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="ar_SA">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Equipment Fleet | Taj Al Sharq United — Cranes, Excavators, Loaders & More">
+<meta name="twitter:description" content="Browse Taj Al Sharq United's heavy equipment fleet available for rental: telehandlers, mobile cranes, excavators, backhoe loaders, generators, manlifts, scissor lifts and skid loaders.">
+<meta name="twitter:image" content="assets/img/excavator-arm-closeup.jpg">
+
+<link rel="canonical" href="https://tajalsharq.com/equipment.html">
+
+<!-- Fonts (preload critical) -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<!-- Bootstrap 5.3.3 (swappable for RTL) -->
+<link id="bootstrap-css" rel="stylesheet" href="assets/css/bootstrap.min.css">
+<!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- AOS -->
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<!-- Swiper -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- Custom styles -->
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="assets/img/logo-mark.png" type="image/png">
+
+<!-- Schema.org JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Taj Al Sharq United Equipment Fleet",
+  "description": "Heavy equipment available for rental from Taj Al Sharq United.",
+  "url": "https://tajalsharq.com/equipment.html",
+  "numberOfItems": 8,
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Telehandler 17M" },
+    { "@type": "ListItem", "position": 2, "name": "Skid Loader S150" },
+    { "@type": "ListItem", "position": 3, "name": "Mobile Crane" },
+    { "@type": "ListItem", "position": 4, "name": "Manlift" },
+    { "@type": "ListItem", "position": 5, "name": "Scissor Lift" },
+    { "@type": "ListItem", "position": 6, "name": "Excavator" },
+    { "@type": "ListItem", "position": 7, "name": "Generator" },
+    { "@type": "ListItem", "position": 8, "name": "Backhoe Loader" }
+  ]
+}
+</script>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
 </head>
 <body>
 
+<!-- Page loader -->
 <div class="page-loader">
   <div class="loader-mark">
-    <img src="assets/img/logo-mark.png" alt="Loading Taj Al Sharq United">
+    <img src="assets/img/logo-mark.png" data-i18n-alt="loader.alt" alt="Loading Taj Al Sharq United">
     <div class="loader-bar"><span></span></div>
   </div>
 </div>
 
+<!-- ============================ NAVBAR ============================ -->
 <header class="site-navbar">
   <div class="container-xl-custom navbar-inner">
     <a href="index.html" class="brand-mark">
       <img src="assets/img/logo-mark.png" alt="Taj Al Sharq United logo">
-      <span class="brand-type">Taj Al Sharq<small>United &mdash; Jeddah, KSA</small></span>
+      <span class="brand-type"><span data-i18n="brand.name">Taj Al Sharq</span><small data-i18n="brand.sub">United &mdash; Jeddah, KSA</small></span>
     </a>
     <nav class="nav-links" id="navLinks">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="equipment.html">Equipment</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="about.html" data-i18n="nav.about">About</a>
+      <a href="services.html" data-i18n="nav.services">Services</a>
+      <a href="equipment.html" data-i18n="nav.equipment">Equipment</a>
+      <a href="gallery.html" data-i18n="nav.gallery">Gallery</a>
+      <a href="contact.html" data-i18n="nav.contact">Contact</a>
     </nav>
     <div class="d-flex align-items-center gap-3">
-      <a href="tel:+966538617608" class="btn-nav-cta d-none d-lg-inline-flex"><i class="bi bi-telephone-fill me-1"></i> 053 861 7608</a>
-      <button class="navbar-toggler-custom" id="navToggler" aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
+      <!-- Language Switcher -->
+      <div id="langSwitcher" class="lang-switcher">
+        <button class="lang-option active" data-lang="en" data-i18n="lang.en">EN</button>
+        <button class="lang-option" data-lang="ar" data-i18n="lang.ar">AR</button>
+      </div>
+      <a href="tel:+966538617608" class="btn-nav-cta d-none d-lg-inline-flex"><i class="bi bi-telephone-fill me-1"></i> <span data-i18n="nav.callUs">053 861 7608</span></a>
+      <button class="navbar-toggler-custom" id="navToggler" data-i18n-aria="accessibility.toggleNav" aria-label="Toggle navigation"><i class="bi bi-list"></i></button>
     </div>
   </div>
 </header>
 <div class="nav-backdrop" id="navBackdrop"></div>
 
-<!-- PAGE HERO -->
+<!-- ============================ PAGE HERO ============================ -->
 <section class="page-hero">
   <div class="hero-bg"><img src="assets/img/excavator-arm-closeup.jpg" alt="Excavator arm close-up on site"></div>
   <div class="hero-scrim"></div>
   <div class="container-xl-custom hero-content">
-    <div class="eyebrow" data-aos="fade-up">Our Fleet</div>
-    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100" style="font-size:clamp(2.2rem,4.6vw,3.6rem);">Equipment Fleet</h1>
+    <div class="eyebrow" data-aos="fade-up" data-i18n="pageHero.eyebrow">Our Fleet</div>
+    <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100" style="font-size:clamp(2.2rem,4.6vw,3.6rem);" data-i18n="pageHero.title">Equipment Fleet</h1>
     <div class="breadcrumb-trail" data-aos="fade-up" data-aos-delay="200">
-      <a href="index.html">Home</a><span class="sep">/</span><span>Equipment</span>
+      <a href="index.html" data-i18n="pageHero.breadcrumbHome">Home</a><span class="sep">/</span><span data-i18n="pageHero.breadcrumbCurrent">Equipment</span>
     </div>
   </div>
 </section>
 
-<!-- EQUIPMENT CATALOG -->
+<!-- ============================ EQUIPMENT CATALOG ============================ -->
 <section class="section-pad">
   <div class="container-xl-custom">
     <div class="row align-items-end mb-4">
       <div class="col-lg-7" data-aos="fade-up">
-        <div class="eyebrow">Available For Rental</div>
-        <h2 class="section-title">Our Equipment &amp; Machinery</h2>
+        <div class="eyebrow" data-i18n="catalog.eyebrow">Available For Rental</div>
+        <h2 class="section-title" data-i18n="catalog.title">Our Equipment &amp; Machinery</h2>
       </div>
     </div>
 
-    <div class="filter-pills mb-5" data-filter-group="#equipmentGrid" data-aos="fade-up">
-      <button class="filter-pill active" data-filter="all">All Equipment</button>
-      <button class="filter-pill" data-filter="cranes">Cranes &amp; Lifting</button>
-      <button class="filter-pill" data-filter="earthmoving">Earthmoving</button>
-      <button class="filter-pill" data-filter="access">Aerial Access</button>
-      <button class="filter-pill" data-filter="power">Power &amp; Loaders</button>
+    <div class="filter-pills mb-5" id="filterPillsContainer" data-filter-group="#equipmentGrid" data-aos="fade-up">
+      <!-- Dynamically rendered by equipment-init.js -->
     </div>
 
     <div class="row g-4" id="equipmentGrid">
-
-      <div class="col-md-6 col-lg-3" data-category="cranes access" data-aos="fade-up" id="cranes">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/excavator-arm-closeup.jpg" alt="Telehandler 17M"><span class="tag-code">EQ / 01</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Lifting Equipment</div>
-            <h3>Telehandler 17M</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-arrows-vertical"></i> 17m Reach</span>
-              <span class="spec"><i class="bi bi-speedometer2"></i> 4T Capacity</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3" data-category="power" data-aos="fade-up" data-aos-delay="50">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/loader-site.jpg" alt="Skid Loader S150"><span class="tag-code">EQ / 02</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Compact Loaders</div>
-            <h3>Skid Loader S150</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-arrows-angle-contract"></i> 0.5m³ Bucket</span>
-              <span class="spec"><i class="bi bi-speedometer2"></i> Compact Frame</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3" data-category="cranes" data-aos="fade-up" data-aos-delay="100">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/crane-tower-site.jpg" alt="Mobile Crane"><span class="tag-code">EQ / 03</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Lifting Equipment</div>
-            <h3>Mobile Crane</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-arrows-vertical"></i> 30m Boom</span>
-              <span class="spec"><i class="bi bi-speedometer2"></i> 25T Capacity</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3" data-category="access" data-aos="fade-up" data-aos-delay="150">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/crane-loading-truck.jpg" alt="Manlift"><span class="tag-code">EQ / 04</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Aerial Access</div>
-            <h3>Manlift</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-arrows-vertical"></i> 16m Platform</span>
-              <span class="spec"><i class="bi bi-speedometer2"></i> 230kg Load</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3" data-category="access" data-aos="fade-up" id="access">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/welding-sparks.jpg" alt="Scissor Lift"><span class="tag-code">EQ / 05</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Aerial Access</div>
-            <h3>Scissor Lift</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-arrows-vertical"></i> 10m Platform</span>
-              <span class="spec"><i class="bi bi-speedometer2"></i> 320kg Load</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3" data-category="earthmoving" data-aos="fade-up" data-aos-delay="50" id="earthmoving">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/excavator-loading-truck.jpg" alt="Excavator"><span class="tag-code">EQ / 06</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Earthmoving</div>
-            <h3>Excavator</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-arrows-angle-contract"></i> 21T Class</span>
-              <span class="spec"><i class="bi bi-speedometer2"></i> 1.1m³ Bucket</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3" data-category="power" data-aos="fade-up" data-aos-delay="100" id="power">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/excavator-square.jpg" alt="Generator"><span class="tag-code">EQ / 07</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Power Supply</div>
-            <h3>Generator</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-lightning-charge"></i> 500 KVA</span>
-              <span class="spec"><i class="bi bi-fuel-pump"></i> Diesel</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-6 col-lg-3" data-category="earthmoving" data-aos="fade-up" data-aos-delay="150">
-        <div class="equip-card">
-          <div class="blueprint-frame"><img src="assets/img/loader-site.jpg" alt="Backhoe Loader"><span class="tag-code">EQ / 08</span></div>
-          <div class="equip-body">
-            <div class="equip-cat">Earthmoving</div>
-            <h3>Backhoe Loader</h3>
-            <div class="equip-specs">
-              <span class="spec"><i class="bi bi-arrows-angle-contract"></i> 1CX Class</span>
-              <span class="spec"><i class="bi bi-speedometer2"></i> Dual Function</span>
-            </div>
-            <a href="contact.html" class="equip-cta">Request Quote <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-
+      <!-- Dynamically rendered by equipment-init.js -->
     </div>
   </div>
 </section>
 
-<!-- SKILLED MANPOWER -->
+<!-- ============================ SKILLED MANPOWER ============================ -->
 <section class="section-pad bg-graphite">
   <div class="container-xl-custom">
     <div class="row mb-5">
       <div class="col-lg-7" data-aos="fade-up">
-        <div class="eyebrow">People Behind The Machines</div>
-        <h2 class="section-title section-title--light">Skilled <span class="accent">Manpower</span></h2>
+        <div class="eyebrow" data-i18n="manpower.eyebrow">People Behind The Machines</div>
+        <h2 class="section-title section-title--light" data-i18n="manpower.title">Skilled <span class="accent">Manpower</span></h2>
       </div>
     </div>
-    <div class="row g-4">
-      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
-        <div class="feature-card feature-card--dark text-center">
-          <div class="feature-icon mx-auto"><i class="bi bi-wrench-adjustable"></i></div>
-          <h3>Plumbers</h3>
-          <p>Piping &amp; utility installation specialists.</p>
-        </div>
-      </div>
-      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
-        <div class="feature-card feature-card--dark text-center">
-          <div class="feature-icon mx-auto"><i class="bi bi-lightning"></i></div>
-          <h3>Welders</h3>
-          <p>Certified structural &amp; pipe welding.</p>
-        </div>
-      </div>
-      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-        <div class="feature-card feature-card--dark text-center">
-          <div class="feature-icon mx-auto"><i class="bi bi-grid-3x3"></i></div>
-          <h3>Steel Fixers</h3>
-          <p>Reinforcement placement &amp; binding.</p>
-        </div>
-      </div>
-      <div class="col-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-        <div class="feature-card feature-card--dark text-center">
-          <div class="feature-icon mx-auto"><i class="bi bi-steering-wheel"></i></div>
-          <h3>Drivers &amp; Operators</h3>
-          <p>Licensed heavy vehicle &amp; equipment operators.</p>
-        </div>
-      </div>
+    <div class="row g-4" id="manpowerCards">
+      <!-- Dynamically rendered by equipment-init.js -->
     </div>
   </div>
 </section>
 
-<!-- CTA -->
+<!-- ============================ CTA ============================ -->
 <section class="section-pad-sm">
   <div class="container-xl-custom">
     <div class="cta-band" data-aos="zoom-in">
@@ -257,11 +161,11 @@
       <div class="cta-inner">
         <div class="row align-items-center g-4">
           <div class="col-lg-8">
-            <div class="eyebrow">Need Specific Equipment?</div>
-            <h2 class="section-title section-title--light mb-0">Get A Custom Rental Quote Today</h2>
+            <div class="eyebrow" data-i18n="cta.needEquipment">Need Specific Equipment?</div>
+            <h2 class="section-title section-title--light mb-0" data-i18n="cta.getCustomQuote">Get A Custom Rental Quote Today</h2>
           </div>
           <div class="col-lg-4 text-lg-end">
-            <a href="contact.html" class="btn-industrial btn-industrial-primary">Request A Quote <i class="bi bi-arrow-right"></i></a>
+            <a href="contact.html" class="btn-industrial btn-industrial-primary"><span data-i18n="cta.requestQuote">Request A Quote</span> <i class="bi bi-arrow-right"></i></a>
           </div>
         </div>
       </div>
@@ -269,44 +173,45 @@
   </div>
 </section>
 
+<!-- ============================ FOOTER ============================ -->
 <footer class="site-footer">
   <div class="footer-top">
     <div class="container-xl-custom">
       <div class="row gy-5">
         <div class="col-lg-4">
           <div class="footer-brand"><img src="assets/img/logo-horizontal-gold.png" alt="Taj Al Sharq United"></div>
-          <p class="footer-about">Taj Al Sharq United Company delivers integrated construction, heavy equipment rental, transportation and skilled manpower solutions across the Kingdom of Saudi Arabia.</p>
+          <p class="footer-about" data-i18n="footer.about">Taj Al Sharq United Company delivers integrated construction, heavy equipment rental, transportation and skilled manpower solutions across the Kingdom of Saudi Arabia.</p>
           <div class="social-row">
-            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" data-i18n-aria="social.ariaFacebook" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" data-i18n-aria="social.ariaInstagram" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" data-i18n-aria="social.ariaLinkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" data-i18n-aria="social.ariaX" aria-label="X"><i class="bi bi-twitter-x"></i></a>
           </div>
         </div>
         <div class="col-6 col-lg-2">
-          <h5 class="footer-heading">Company</h5>
+          <h5 class="footer-heading" data-i18n="footer.companyHeading">Company</h5>
           <ul class="footer-links">
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Our Services</a></li>
-            <li><a href="equipment.html">Equipment</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html" data-i18n="footer.aboutUs">About Us</a></li>
+            <li><a href="services.html" data-i18n="footer.ourServices">Our Services</a></li>
+            <li><a href="equipment.html" data-i18n="footer.equipmentLink">Equipment</a></li>
+            <li><a href="gallery.html" data-i18n="footer.galleryLink">Gallery</a></li>
           </ul>
         </div>
         <div class="col-6 col-lg-2">
-          <h5 class="footer-heading">Services</h5>
+          <h5 class="footer-heading" data-i18n="footer.servicesHeading">Services</h5>
           <ul class="footer-links">
-            <li><a href="services.html">Construction Works</a></li>
-            <li><a href="services.html">Equipment Rental</a></li>
-            <li><a href="services.html">Transportation</a></li>
-            <li><a href="services.html">Manpower Supply</a></li>
+            <li><a href="services.html" data-i18n="footer.constructionWorks">Construction Works</a></li>
+            <li><a href="services.html" data-i18n="footer.equipmentRental">Equipment Rental</a></li>
+            <li><a href="services.html" data-i18n="footer.transportation">Transportation</a></li>
+            <li><a href="services.html" data-i18n="footer.manpowerSupply">Manpower Supply</a></li>
           </ul>
         </div>
         <div class="col-lg-4">
-          <h5 class="footer-heading">Get In Touch</h5>
+          <h5 class="footer-heading" data-i18n="footer.getInTouchHeading">Get In Touch</h5>
           <ul class="footer-links">
-            <li><i class="bi bi-geo-alt-fill text-gold me-2"></i>Al-Furusiyah Dist., Omar Ibrahim Al-Shajri St., Jeddah, Saudi Arabia</li>
-            <li><i class="bi bi-envelope-fill text-gold me-2"></i><a href="mailto:Info@tajco.com">Info@tajco.com</a></li>
-            <li><i class="bi bi-telephone-fill text-gold me-2"></i><a href="tel:+966538617608">053 861 7608</a></li>
+            <li><i class="bi bi-geo-alt-fill text-gold me-2"></i><span data-i18n="footer.address">Al-Furusiyah Dist., Omar Ibrahim Al-Shajri St., Jeddah, Saudi Arabia</span></li>
+            <li><i class="bi bi-envelope-fill text-gold me-2"></i><a href="mailto:Info@tajco.com" data-i18n="footer.email">Info@tajco.com</a></li>
+            <li><i class="bi bi-telephone-fill text-gold me-2"></i><a href="tel:+966538617608" data-i18n="footer.phone">053 861 7608</a></li>
           </ul>
         </div>
       </div>
@@ -314,17 +219,29 @@
   </div>
   <div class="footer-bottom">
     <div class="container-xl-custom d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
-      <p>&copy; <span id="footerYear"></span> Taj Al Sharq United Company. All rights reserved.</p>
-      <p>Construction &amp; Heavy Equipment Rental — Jeddah, Saudi Arabia</p>
+      <p>&copy; <span id="footerYear"></span> <span data-i18n="footer.copyright">Taj Al Sharq United Company. All rights reserved.</span></p>
+      <p data-i18n="footer.tagline">Construction &amp; Heavy Equipment Rental — Jeddah, Saudi Arabia</p>
     </div>
   </div>
 </footer>
 
-<button class="back-to-top" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+<button class="back-to-top" data-i18n-aria="accessibility.backToTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
 
+<!-- Third-party libraries -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script src="assets/js/main.js"></script>
+<!-- Core modules (order matters: api → language → loader → utils → faq → equipment → gallery → contact → app → page-init) -->
+<script src="assets/js/api.js"></script>
+<script src="assets/js/language.js"></script>
+<script src="assets/js/loader.js"></script>
+<script src="assets/js/utils.js"></script>
+<script src="assets/js/faq.js"></script>
+<script src="assets/js/equipment.js"></script>
+<script src="assets/js/gallery.js"></script>
+<script src="assets/js/contact.js"></script>
+<script src="assets/js/app.js"></script>
+<!-- Page-specific init -->
+<script src="assets/js/equipment-init.js"></script>
 </body>
 </html>

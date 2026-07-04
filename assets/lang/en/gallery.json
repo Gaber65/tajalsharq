@@ -1,0 +1,38 @@
+{
+  "pageHero": {
+    "eyebrow": "Our Work",
+    "title": "Project Gallery",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Gallery"
+  },
+  "gallery": {
+    "eyebrow": "Sites &amp; Machinery",
+    "title": "A Look At Our Projects"
+  },
+  "galleryItems": {
+    "item1Cat": "Site Works",
+    "item1Title": "Earthworks at Sunset",
+    "item2Cat": "Equipment",
+    "item2Title": "Excavator Loading",
+    "item3Cat": "Equipment",
+    "item3Title": "Tower Crane Operation",
+    "item4Cat": "Our Team",
+    "item4Title": "Crew On Site",
+    "item5Cat": "Equipment",
+    "item5Title": "Excavator Detail",
+    "item6Cat": "Our Team",
+    "item6Title": "Certified Welder",
+    "item7Cat": "Site Works",
+    "item7Title": "Site Overview",
+    "item8Cat": "Our Team",
+    "item8Title": "Steel Fixing Crew",
+    "item9Cat": "Site Works",
+    "item9Title": "Fabrication Works",
+    "item10Cat": "Equipment",
+    "item10Title": "Backhoe Loader",
+    "item11Cat": "Equipment",
+    "item11Title": "Loading Operations",
+    "item12Cat": "Site Works",
+    "item12Title": "Active Job Site"
+  }
+}

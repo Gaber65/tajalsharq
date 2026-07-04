@@ -1,0 +1,58 @@
+{
+  "pageHero": {
+    "eyebrow": "Our Fleet",
+    "title": "Equipment Fleet",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Equipment"
+  },
+  "catalog": {
+    "eyebrow": "Available For Rental",
+    "title": "Our Equipment &amp; Machinery"
+  },
+  "manpower": {
+    "eyebrow": "People Behind The Machines",
+    "title": "Skilled <span class=\"accent\">Manpower</span>",
+    "plumbersTitle": "Plumbers",
+    "plumbersDesc": "Piping &amp; utility installation specialists.",
+    "weldersTitle": "Welders",
+    "weldersDesc": "Certified structural &amp; pipe welding.",
+    "steelFixersTitle": "Steel Fixers",
+    "steelFixersDesc": "Reinforcement placement &amp; binding.",
+    "driversTitle": "Drivers &amp; Operators",
+    "driversDesc": "Licensed heavy vehicle &amp; equipment operators."
+  },
+  "equipItems": {
+    "telehandlerCat": "Lifting Equipment",
+    "telehandlerName": "Telehandler 17M",
+    "telehandlerSpec1": "17m Reach",
+    "telehandlerSpec2": "4T Capacity",
+    "skidLoaderCat": "Compact Loaders",
+    "skidLoaderName": "Skid Loader S150",
+    "skidLoaderSpec1": "0.5m³ Bucket",
+    "skidLoaderSpec2": "Compact Frame",
+    "mobileCraneCat": "Lifting Equipment",
+    "mobileCraneName": "Mobile Crane",
+    "mobileCraneSpec1": "30m Boom",
+    "mobileCraneSpec2": "25T Capacity",
+    "manliftCat": "Aerial Access",
+    "manliftName": "Manlift",
+    "manliftSpec1": "16m Platform",
+    "manliftSpec2": "230kg Load",
+    "scissorLiftCat": "Aerial Access",
+    "scissorLiftName": "Scissor Lift",
+    "scissorLiftSpec1": "10m Platform",
+    "scissorLiftSpec2": "320kg Load",
+    "excavatorCat": "Earthmoving",
+    "excavatorName": "Excavator",
+    "excavatorSpec1": "21T Class",
+    "excavatorSpec2": "1.1m³ Bucket",
+    "generatorCat": "Power Supply",
+    "generatorName": "Generator",
+    "generatorSpec1": "500 KVA",
+    "generatorSpec2": "Diesel",
+    "backhoeCat": "Earthmoving",
+    "backhoeName": "Backhoe Loader",
+    "backhoeSpec1": "1CX Class",
+    "backhoeSpec2": "Dual Function"
+  }
+}

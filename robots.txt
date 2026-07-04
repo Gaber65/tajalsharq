@@ -1,0 +1,8 @@
+# robots.txt for Taj Al Sharq United
+User-agent: *
+Allow: /
+Disallow: /assets/js/
+Disallow: /assets/data/
+Disallow: /assets/lang/
+
+Sitemap: https://tajalsharq.com/sitemap.xml

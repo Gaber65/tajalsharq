@@ -1,0 +1,29 @@
+{
+  "faq": [
+    {
+      "id": "faq1",
+      "questionKey": "faqSection.q1",
+      "answerKey": "faqSection.a1"
+    },
+    {
+      "id": "faq2",
+      "questionKey": "faqSection.q2",
+      "answerKey": "faqSection.a2"
+    },
+    {
+      "id": "faq3",
+      "questionKey": "faqSection.q3",
+      "answerKey": "faqSection.a3"
+    },
+    {
+      "id": "faq4",
+      "questionKey": "faqSection.q4",
+      "answerKey": "faqSection.a4"
+    },
+    {
+      "id": "faq5",
+      "questionKey": "faqSection.q5",
+      "answerKey": "faqSection.a5"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "pageHero": {
+    "eyebrow": "أسطولنا",
+    "title": "أسطول المعدات",
+    "breadcrumbHome": "الرئيسية",
+    "breadcrumbCurrent": "المعدات"
+  },
+  "catalog": {
+    "eyebrow": "متاحة للتأجير",
+    "title": "معداتنا وآلياتنا"
+  },
+  "manpower": {
+    "eyebrow": "الأشخاص خلف الآلات",
+    "title": "العمالة <span class=\"accent\">الماهرة</span>",
+    "plumbersTitle": "سباكون",
+    "plumbersDesc": "متخصصون في تركيب الأنابيب والمرافق.",
+    "weldersTitle": "لحامون",
+    "weldersDesc": "لحام هيكلي وأنابيب معتمدون.",
+    "steelFixersTitle": "إصلاحو حديد",
+    "steelFixersDesc": "تركيب وربط التسليح.",
+    "driversTitle": "سائقون ومشغلون",
+    "driversDesc": "مشغلون مرخصون للمركبات الثقيلة والمعدات."
+  },
+  "equipItems": {
+    "telehandlerCat": "معدات الرفع",
+    "telehandlerName": "تليهاندلر 17م",
+    "telehandlerSpec1": "مدى 17م",
+    "telehandlerSpec2": "سعة 4 طن",
+    "skidLoaderCat": "اللودرات المدمجة",
+    "skidLoaderName": "لودر زلاجة S150",
+    "skidLoaderSpec1": "دلو 0.5م³",
+    "skidLoaderSpec2": "هيكل مدمج",
+    "mobileCraneCat": "معدات الرفع",
+    "mobileCraneName": "رافعة متحركة",
+    "mobileCraneSpec1": "رافعة 30م",
+    "mobileCraneSpec2": "سعة 25 طن",
+    "manliftCat": "الوصول الجوي",
+    "manliftName": "منصة رفع",
+    "manliftSpec1": "منصة 16م",
+    "manliftSpec2": "حمولة 230كجم",
+    "scissorLiftCat": "الوصول الجوي",
+    "scissorLiftName": "منصة مقصية",
+    "scissorLiftSpec1": "منصة 10م",
+    "scissorLiftSpec2": "حمولة 320كجم",
+    "excavatorCat": "أعمال الحفر",
+    "excavatorName": "حفارة",
+    "excavatorSpec1": "فئة 21 طن",
+    "excavatorSpec2": "دلو 1.1م³",
+    "generatorCat": "إمداد الطاقة",
+    "generatorName": "مولد كهربائي",
+    "generatorSpec1": "500 كيلو فولت أمبير",
+    "generatorSpec2": "ديزل",
+    "backhoeCat": "أعمال الحفر",
+    "backhoeName": "لودر بحافة خلفية",
+    "backhoeSpec1": "فئة 1CX",
+    "backhoeSpec2": "وظيفة مزدوجة"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "pageHero": {
+    "eyebrow": "What We Do",
+    "title": "Our Services",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Services"
+  },
+  "servicesList": {
+    "eyebrow": "Full Service Range",
+    "title": "Everything Your Project Needs, In One Place"
+  },
+  "serviceRows": {
+    "constructionNum": "01",
+    "constructionTitle": "Construction Works",
+    "constructionDesc": "We provide high-quality construction and contracting services with a strong focus on safety, precision, and timely project delivery, from groundworks to finishing.",
+    "rentalNum": "02",
+    "rentalTitle": "Equipment Rental",
+    "rentalDesc": "We offer a wide range of modern heavy equipment to support various project requirements with efficiency, reliability, and optimal performance — with or without operators.",
+    "transportNum": "03",
+    "transportTitle": "Transportation Services",
+    "transportDesc": "We provide safe and efficient transportation of goods and materials through a reliable fleet of trucks, ensuring timely delivery and secure handling.",
+    "manpowerNum": "04",
+    "manpowerTitle": "Manpower Supply",
+    "manpowerDesc": "We supply qualified workers, skilled labor, and experienced drivers to support different types and scales of projects — from plumbers to welders and steel fixers.",
+    "integratedNum": "05",
+    "integratedTitle": "Integrated Solutions",
+    "integratedDesc": "We deliver complete, end-to-end project solutions tailored to client needs, ensuring smooth execution and high operational efficiency across every phase."
+  },
+  "detailCards": {
+    "eyebrow": "Deep Dive",
+    "title": "Service Capabilities"
+  },
+  "detail": {
+    "earthworksTitle": "Site Preparation &amp; Earthworks",
+    "earthworksDesc": "Excavation, grading, backfilling and site clearance handled by trained operators using excavators and backhoe loaders.",
+    "earthworksCheck1": "Excavation &amp; trenching",
+    "earthworksCheck2": "Grading &amp; leveling",
+    "earthworksCheck3": "Material handling",
+    "liftingTitle": "Lifting &amp; Aerial Access",
+    "liftingDesc": "Mobile cranes, telehandlers, manlifts and scissor lifts for structural erection, installation and maintenance at height.",
+    "liftingCheck1": "Structural steel erection",
+    "liftingCheck2": "Facade &amp; MEP access",
+    "liftingCheck3": "Certified rigging crews",
+    "haulageTitle": "Heavy Haulage &amp; Logistics",
+    "haulageDesc": "Fleet of dump trucks and flatbeds for transporting aggregates, equipment and construction materials across the Kingdom.",
+    "haulageCheck1": "Bulk material haulage",
+    "haulageCheck2": "Equipment transport",
+    "haulageCheck3": "Route planning &amp; permits",
+    "powerTitle": "Power &amp; Site Utilities",
+    "powerDesc": "Diesel generators and site utility equipment ensuring uninterrupted power supply for remote or off-grid job sites.",
+    "powerCheck1": "Generator rental (KVA range)",
+    "powerCheck2": "Fuel management",
+    "powerCheck3": "On-call maintenance",
+    "skilledManpowerTitle": "Skilled Manpower",
+    "skilledManpowerDesc": "Vetted plumbers, welders, steel fixers, construction workers, technicians, drivers and operators available on flexible terms.",
+    "skilledManpowerCheck1": "Trade-certified staff",
+    "skilledManpowerCheck2": "Short &amp; long-term contracts",
+    "skilledManpowerCheck3": "Site safety induction",
+    "projectMgmtTitle": "Project Management",
+    "projectMgmtDesc": "End-to-end coordination of equipment, crews and logistics so your project team can focus on delivery, not procurement.",
+    "projectMgmtCheck1": "Single point of contact",
+    "projectMgmtCheck2": "Progress reporting",
+    "projectMgmtCheck3": "HSE compliance"
+  },
+  "process": {
+    "eyebrow": "How We Work",
+    "title": "A Simple, Transparent <span class=\"accent\">Process</span>",
+    "step1Num": "01",
+    "step1Title": "Request & Consult",
+    "step1Desc": "Share your project scope, timeline and equipment needs with our team.",
+    "step2Num": "02",
+    "step2Title": "Proposal & Quote",
+    "step2Desc": "We recommend the right equipment and crew, with transparent pricing.",
+    "step3Num": "03",
+    "step3Title": "Mobilize Equipment",
+    "step3Desc": "Equipment, operators and crews are deployed to site on schedule.",
+    "step4Num": "04",
+    "step4Title": "Deliver & Support",
+    "step4Desc": "Ongoing coordination and maintenance support until project close-out."
+  }
+}
