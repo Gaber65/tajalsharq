@@ -8,7 +8,9 @@ const ContactForm = (() => {
   /* ---- Initialize EmailJS ---- */
   const initEmailJS = () => {
     if (window.emailjs) {
-      emailjs.init({ publicKey: 'YOUR_EMAILJS_PUBLIC_KEY' });
+      emailjs.init({
+        publicKey: "kcYJlLzg-1lL8nAP7"
+      });
     }
   };
 
@@ -94,7 +96,11 @@ const ContactForm = (() => {
       };
 
       if (window.emailjs) {
-        emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', params).then(
+        emailjs.send(
+          "service_2d6ub69",
+          "template_m53wds2",
+          params
+        ).then(
           () => {
             showAlert(alertBox, 'success', Language.t('contact.form.successMessage'));
             contactForm.reset();

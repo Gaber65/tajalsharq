@@ -15,13 +15,58 @@ const Utils = (() => {
         once: true,
         offset: 60
       });
+    } else {
+      initRevealOnScroll();
     }
+  };
+
+  /* ---- Fallback scroll reveal animation ---- */
+  const initRevealOnScroll = () => {
+    const elements = document.querySelectorAll('[data-aos]');
+    if (!elements.length) return;
+
+    const activateElement = (el) => {
+      if (el.dataset.aosState === 'animated') return;
+
+      const delay = parseInt(el.getAttribute('data-aos-delay') || '0', 10);
+      el.style.transitionDelay = `${delay}ms`;
+      el.classList.add('reveal-visible', 'aos-animate');
+      el.dataset.aosState = 'animated';
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          activateElement(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.16,
+      rootMargin: '0px 0px -70px 0px'
+    });
+
+    elements.forEach((el) => {
+      if (el.dataset.aosState === 'animated') {
+        activateElement(el);
+        return;
+      }
+
+      const rect = el.getBoundingClientRect();
+      if (rect.top < window.innerHeight * 0.95) {
+        activateElement(el);
+      } else {
+        observer.observe(el);
+      }
+    });
   };
 
   /* ---- Refresh AOS after dynamic content is loaded ---- */
   const refreshAOS = () => {
     if (window.AOS) {
       AOS.refresh();
+    } else {
+      initRevealOnScroll();
     }
   };
 
@@ -102,6 +147,7 @@ const Utils = (() => {
 
   return {
     initAOS,
+    initRevealOnScroll,
     refreshAOS,
     initCounters,
     setFooterYear,

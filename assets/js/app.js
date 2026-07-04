@@ -145,6 +145,7 @@ const App = (() => {
     initBackToTop();
     initLangSwitcher();
 
+    Utils.initAOS();
     Utils.setFooterYear();
     Utils.setActiveNavLink();
 

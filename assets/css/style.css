@@ -40,14 +40,20 @@
 /* ==========================================================================
    Base
    ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 html { scroll-behavior: smooth; }
 
 body {
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
   font-family: var(--font-body);
   color: var(--ink-900);
   background: var(--paper-000);
   -webkit-font-smoothing: antialiased;
-  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -70,7 +76,27 @@ a { text-decoration: none; color: inherit; }
   outline-offset: 2px;
 }
 
-img { max-width: 100%; height: auto; display: block; }
+img, iframe, video, embed, object {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+[data-aos] {
+  opacity: 0;
+  transition: opacity 0.7s ease, transform 0.7s ease;
+  will-change: opacity, transform;
+}
+[data-aos="fade-up"] { transform: translate3d(0, 28px, 0); }
+[data-aos="fade-down"] { transform: translate3d(0, -28px, 0); }
+[data-aos="fade-right"] { transform: translate3d(24px, 0, 0); }
+[data-aos="fade-left"] { transform: translate3d(-24px, 0, 0); }
+[data-aos="zoom-in"] { transform: scale(0.94); }
+[data-aos].aos-animate,
+[data-aos].reveal-visible {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) scale(1);
+}
 
 .container-xl-custom {
   width: 100%;
@@ -78,6 +104,28 @@ img { max-width: 100%; height: auto; display: block; }
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 768px) {
+  .row {
+    margin-left: calc(-0.5 * var(--bs-gutter-x, 1.5rem));
+    margin-right: calc(-0.5 * var(--bs-gutter-x, 1.5rem));
+  }
+
+  .row > * {
+    padding-left: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
+    padding-right: calc(var(--bs-gutter-x, 1.5rem) * 0.5);
+  }
 }
 
 /* Mono / spec-sheet numerals used throughout for a technical, blueprint feel */
@@ -153,6 +201,7 @@ img { max-width: 100%; height: auto; display: block; }
   overflow: hidden;
   border-radius: var(--radius-sm);
 }
+
 .blueprint-frame::before,
 .blueprint-frame::after,
 .blueprint-frame .corner-tl,
@@ -260,8 +309,8 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: 0.82rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 11px 22px;
-  background: var(--amber-500);
+  padding: 8px 22px;
+  background: rgb(7, 115, 7);
   color: #fff !important;
   border-radius: 3px;
   transition: background 0.25s ease, transform 0.25s ease;
@@ -1007,6 +1056,7 @@ textarea.form-control-industrial { resize: vertical; min-height: 130px; }
 .footer-links { list-style: none; padding: 0; margin: 0; }
 .footer-links li { margin-bottom: 13px; }
 .footer-links a { color: var(--steel-300); font-size: 0.92rem; transition: color 0.25s ease, padding-left 0.25s ease; display: inline-block; }
+.footer-links p { color: var(--steel-300); font-size: 0.92rem; transition: color 0.25s ease, padding-left 0.25s ease; display: inline-block; }
 .footer-links a:hover { color: var(--gold-400); padding-left: 4px; }
 
 .footer-bottom { position: relative; border-top: 1px solid rgba(255,255,255,0.08); padding: 24px 0; }
