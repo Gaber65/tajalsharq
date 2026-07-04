@@ -1,0 +1,70 @@
+{
+  "pageHero": {
+    "eyebrow": "Get In Touch",
+    "title": "Contact Us",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Contact"
+  },
+  "contact": {
+    "infoEyebrow": "Contact Information",
+    "infoTitle": "Let's Talk About Your Project",
+    "infoLede": "Reach out for equipment availability, pricing, or to schedule a site consultation. Our team typically responds within one business day.",
+    "officeLabel": "Head Office",
+    "officeValue": "Al-Furusiyah Dist., Omar Ibrahim Al-Shajri St., Jeddah, Saudi Arabia",
+    "phoneLabel": "Phone",
+    "phoneValue1": "053 861 7608",
+    "phoneValue2": "059 055 3674",
+    "emailLabel": "Email",
+    "emailValue": "Info@tajco.com",
+    "hoursLabel": "Working Hours",
+    "hoursValue": "Sat &ndash; Thu: 7:00 AM &ndash; 6:00 PM",
+    "formTitle": "Request A Quote",
+    "formLede": "Fill out the form below and our team will get back to you shortly.",
+    "fullNameLabel": "Full Name *",
+    "fullNamePlaceholder": "Your full name",
+    "fullNameError": "Please enter your full name (min. 3 characters).",
+    "emailLabel": "Email Address *",
+    "emailPlaceholder": "you@company.com",
+    "emailError": "Please enter a valid email address.",
+    "phoneLabel": "Phone Number *",
+    "phonePlaceholder": "+966 5X XXX XXXX",
+    "phoneError": "Please enter a valid phone number.",
+    "serviceLabel": "Service Needed *",
+    "servicePlaceholder": "Select a service",
+    "serviceError": "Please select a service.",
+    "serviceOption1": "Construction Works",
+    "serviceOption2": "Equipment Rental",
+    "serviceOption3": "Transportation Services",
+    "serviceOption4": "Manpower Supply",
+    "serviceOption5": "Integrated Solutions",
+    "messageLabel": "Message *",
+    "messagePlaceholder": "Tell us about your project, timeline and equipment needs...",
+    "messageError": "Please enter a message (min. 10 characters).",
+    "submitBtn": "Send Inquiry",
+    "form": {
+      "errorValidation": "Please correct the highlighted fields and try again.",
+      "sending": "Sending...",
+      "successMessage": "Your message has been sent successfully! We'll get back to you shortly.",
+      "errorMessage": "Something went wrong. Please try again or contact us directly."
+    }
+  },
+  "map": {
+    "eyebrow": "Find Us",
+    "title": "Our Location"
+  },
+  "faqSection": {
+    "eyebrow": "Common Questions",
+    "title": "Frequently Asked Questions",
+    "lede": "Still have questions? Call us directly at <a href=\"tel:+966538617608\" class=\"text-amber\">053 861 7608</a>.",
+    "q1": "Which areas of Saudi Arabia do you serve?",
+    "a1": "We are based in Jeddah and serve projects across the Western Region, with capability to mobilize equipment and crews nationwide depending on project scope.",
+    "q2": "Do you provide operators with rented equipment?",
+    "a2": "Yes. All equipment rentals can include certified, experienced operators, or be supplied as dry-hire for clients with their own qualified staff.",
+    "q3": "How quickly can equipment be mobilized to site?",
+    "a3": "Standard mobilization is typically 24–48 hours depending on equipment type and site location, with expedited options available for urgent requirements.",
+    "q4": "What are your rental terms — daily, weekly, monthly?",
+    "a4": "We offer flexible daily, weekly and monthly rental terms, with discounted rates for long-term project commitments. Contact us for a custom quote.",
+    "q5": "Do you offer emergency or urgent equipment requests?",
+    "a5": "Yes, our team is available around the clock to coordinate urgent equipment and manpower needs whenever possible."
+  }
+}

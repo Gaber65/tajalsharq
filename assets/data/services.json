@@ -1,0 +1,131 @@
+{
+  "serviceRows": [
+    {
+      "id": "construction",
+      "numKey": "serviceRows.constructionNum",
+      "icon": "bi-diagram-3",
+      "titleKey": "serviceRows.constructionTitle",
+      "descKey": "serviceRows.constructionDesc"
+    },
+    {
+      "id": "rental",
+      "numKey": "serviceRows.rentalNum",
+      "icon": "bi-gear-wide-connected",
+      "titleKey": "serviceRows.rentalTitle",
+      "descKey": "serviceRows.rentalDesc"
+    },
+    {
+      "id": "transport",
+      "numKey": "serviceRows.transportNum",
+      "icon": "bi-truck-front",
+      "titleKey": "serviceRows.transportTitle",
+      "descKey": "serviceRows.transportDesc"
+    },
+    {
+      "id": "manpower",
+      "numKey": "serviceRows.manpowerNum",
+      "icon": "bi-people",
+      "titleKey": "serviceRows.manpowerTitle",
+      "descKey": "serviceRows.manpowerDesc"
+    },
+    {
+      "id": "integrated",
+      "numKey": "serviceRows.integratedNum",
+      "icon": "bi-diagram-2",
+      "titleKey": "serviceRows.integratedTitle",
+      "descKey": "serviceRows.integratedDesc"
+    }
+  ],
+  "detailCards": [
+    {
+      "id": "earthworks",
+      "icon": "bi-cone-striped",
+      "titleKey": "detail.earthworksTitle",
+      "descKey": "detail.earthworksDesc",
+      "check1Key": "detail.earthworksCheck1",
+      "check2Key": "detail.earthworksCheck2",
+      "check3Key": "detail.earthworksCheck3",
+      "delay": 0
+    },
+    {
+      "id": "lifting",
+      "icon": "bi-arrows-angle-expand",
+      "titleKey": "detail.liftingTitle",
+      "descKey": "detail.liftingDesc",
+      "check1Key": "detail.liftingCheck1",
+      "check2Key": "detail.liftingCheck2",
+      "check3Key": "detail.liftingCheck3",
+      "delay": 100
+    },
+    {
+      "id": "haulage",
+      "icon": "bi-truck",
+      "titleKey": "detail.haulageTitle",
+      "descKey": "detail.haulageDesc",
+      "check1Key": "detail.haulageCheck1",
+      "check2Key": "detail.haulageCheck2",
+      "check3Key": "detail.haulageCheck3",
+      "delay": 200
+    },
+    {
+      "id": "power",
+      "icon": "bi-lightning-charge",
+      "titleKey": "detail.powerTitle",
+      "descKey": "detail.powerDesc",
+      "check1Key": "detail.powerCheck1",
+      "check2Key": "detail.powerCheck2",
+      "check3Key": "detail.powerCheck3",
+      "delay": 0
+    },
+    {
+      "id": "skilledManpower",
+      "icon": "bi-person-gear",
+      "titleKey": "detail.skilledManpowerTitle",
+      "descKey": "detail.skilledManpowerDesc",
+      "check1Key": "detail.skilledManpowerCheck1",
+      "check2Key": "detail.skilledManpowerCheck2",
+      "check3Key": "detail.skilledManpowerCheck3",
+      "delay": 100
+    },
+    {
+      "id": "projectMgmt",
+      "icon": "bi-clipboard-check",
+      "titleKey": "detail.projectMgmtTitle",
+      "descKey": "detail.projectMgmtDesc",
+      "check1Key": "detail.projectMgmtCheck1",
+      "check2Key": "detail.projectMgmtCheck2",
+      "check3Key": "detail.projectMgmtCheck3",
+      "delay": 200
+    }
+  ],
+  "process": [
+    {
+      "id": "step1",
+      "numKey": "process.step1Num",
+      "titleKey": "process.step1Title",
+      "descKey": "process.step1Desc",
+      "delay": 0
+    },
+    {
+      "id": "step2",
+      "numKey": "process.step2Num",
+      "titleKey": "process.step2Title",
+      "descKey": "process.step2Desc",
+      "delay": 150
+    },
+    {
+      "id": "step3",
+      "numKey": "process.step3Num",
+      "titleKey": "process.step3Title",
+      "descKey": "process.step3Desc",
+      "delay": 300
+    },
+    {
+      "id": "step4",
+      "numKey": "process.step4Num",
+      "titleKey": "process.step4Title",
+      "descKey": "process.step4Desc",
+      "delay": 450
+    }
+  ]
+}

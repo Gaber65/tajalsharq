@@ -1,0 +1,113 @@
+{
+  "brand": {
+    "name": "Taj Al Sharq",
+    "sub": "United — Jeddah, KSA"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "equipment": "Equipment",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "callUs": "053 861 7608"
+  },
+  "loader": {
+    "alt": "Loading Taj Al Sharq United"
+  },
+  "footer": {
+    "about": "Taj Al Sharq United Company delivers integrated construction, heavy equipment rental, transportation and skilled manpower solutions across the Kingdom of Saudi Arabia.",
+    "companyHeading": "Company",
+    "servicesHeading": "Services",
+    "getInTouchHeading": "Get In Touch",
+    "aboutUs": "About Us",
+    "ourServices": "Our Services",
+    "equipmentLink": "Equipment",
+    "galleryLink": "Gallery",
+    "constructionWorks": "Construction Works",
+    "equipmentRental": "Equipment Rental",
+    "transportation": "Transportation",
+    "manpowerSupply": "Manpower Supply",
+    "address": "Al-Furusiyah Dist., Omar Ibrahim Al-Shajri St., Jeddah, Saudi Arabia",
+    "email": "Info@tajco.com",
+    "phone": "053 861 7608",
+    "copyright": "Taj Al Sharq United Company. All rights reserved.",
+    "tagline": "Construction & Heavy Equipment Rental — Jeddah, Saudi Arabia",
+    "facebook": "Facebook",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "x": "X"
+  },
+  "cta": {
+    "letsBuild": "Let's Build Together",
+    "readyToStart": "Ready To Start Your Next Project?",
+    "getFreeQuote": "Get A Free Quote",
+    "talkToTeam": "Talk To Our Team",
+    "needCustom": "Need A Custom Service Package?",
+    "needEquipment": "Need Specific Equipment?",
+    "getCustomQuote": "Get A Custom Rental Quote Today",
+    "requestQuote": "Request A Quote",
+    "getInTouch": "Get In Touch",
+    "seeProject": "See Your Project On This Wall Next"
+  },
+  "stats": {
+    "years": "Years Experience",
+    "equipment": "Equipment Units",
+    "projects": "Projects Completed",
+    "clients": "Trusted Clients"
+  },
+  "marquee": {
+    "construction": "Construction Works",
+    "rental": "Equipment Rental",
+    "transportation": "Transportation Services",
+    "manpower": "Manpower Supply",
+    "integrated": "Integrated Solutions"
+  },
+  "equipment": {
+    "requestQuote": "Request Quote",
+    "viewDetails": "View Details",
+    "filters": {
+      "all": "All Equipment",
+      "cranes": "Cranes & Lifting",
+      "earthmoving": "Earthmoving",
+      "access": "Aerial Access",
+      "power": "Power & Loaders"
+    }
+  },
+  "gallery": {
+    "filters": {
+      "all": "All",
+      "equipment": "Equipment",
+      "site": "Site Works",
+      "team": "Our Team"
+    }
+  },
+  "faq": {
+    "commonQuestions": "Common Questions",
+    "frequentlyAsked": "Frequently Asked Questions",
+    "cantFind": "Can't find the answer you're looking for? Reach out to our team directly and we'll respond within one business day.",
+    "contactTeam": "Contact Our Team",
+    "stillHave": "Still have questions? Call us directly at"
+  },
+  "clients": {
+    "eyebrow": "Trusted By Industry Leaders",
+    "heading": "Our Clients & Partners"
+  },
+  "social": {
+    "ariaFacebook": "Facebook",
+    "ariaInstagram": "Instagram",
+    "ariaLinkedin": "LinkedIn",
+    "ariaX": "X"
+  },
+  "accessibility": {
+    "backToTop": "Back to top",
+    "toggleNav": "Toggle navigation",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next"
+  },
+  "lang": {
+    "en": "EN",
+    "ar": "AR"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "pageHero": {
+    "eyebrow": "Our Story",
+    "title": "About Taj Al Sharq United",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "About"
+  },
+  "story": {
+    "eyebrow": "A Brief Story About The Company",
+    "title": "Engineering Trust Since Day One",
+    "p1": "Taj Al Sharq United Company is a leading company operating in the construction and support services sectors. It provides integrated solutions that include construction and infrastructure works, equipment rental, and truck transportation services, as well as the supply of specialized labor, equipment operators, and vehicle drivers, with a strong commitment to quality, safety, and professionalism.",
+    "p2": "Throughout its journey, the company has successfully built strong relationships with its clients and partners, based on trust and commitment, consistently delivering reliable services that ensure efficient project execution in accordance with the highest standards.",
+    "tagCode": "TSU / ABOUT",
+    "badgeNum": "150+",
+    "badgeCap1": "Projects",
+    "badgeCap2": "Delivered",
+    "stat1Num": "10+",
+    "stat1Label": "Years Experience",
+    "stat2Num": "120+",
+    "stat2Label": "Equipment Units"
+  },
+  "foundation": {
+    "eyebrow": "Our Foundation",
+    "title": "Vision, Mission & <span class=\"accent\">Values</span>",
+    "visionTitle": "Vision",
+    "visionDesc": "To become a leading company in the Kingdom of Saudi Arabia's construction and support services sector by delivering integrated, high-quality solutions and contributing to the success of development projects with efficiency, professionalism, and excellence.",
+    "missionTitle": "Mission",
+    "missionDesc": "To provide comprehensive services in construction, equipment rental, truck transportation, and skilled manpower supply while adhering to the highest standards of quality and safety, ensuring timely project delivery and building long-term partnerships.",
+    "valuesTitle": "Our Values",
+    "valuesDesc": "Driven by integrity, quality, professionalism, and safety, we foster teamwork, prioritize customer satisfaction, and commit to continuous improvement in every project."
+  },
+  "whyUs": {
+    "eyebrow": "Why Choose Us",
+    "title": "A Partner Who Delivers, Every Time",
+    "lede": "Our advantage lies in the combination of a modern fleet, skilled people, and disciplined project management.",
+    "cta": "Start A Project With Us",
+    "check1": "Integrated construction, rental, transport and manpower under one roof",
+    "check2": "Fleet sourced from trusted global brands and maintained to OEM specification",
+    "check3": "Certified operators, technicians, welders and steel fixers",
+    "check4": "Transparent pricing with flexible rental terms",
+    "check5": "Proven track record with leading contractors and industrial clients",
+    "check6": "Responsive 24/7 coordination for urgent site requirements"
+  }
+}

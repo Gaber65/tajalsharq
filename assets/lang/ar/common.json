@@ -1,0 +1,113 @@
+{
+  "brand": {
+    "name": "تاج الشرق",
+    "sub": "يوناتد — جدة، المملكة العربية السعودية"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "about": "من نحن",
+    "services": "الخدمات",
+    "equipment": "المعدات",
+    "gallery": "المعرض",
+    "contact": "اتصل بنا",
+    "callUs": "053 861 7608"
+  },
+  "loader": {
+    "alt": "جاري تحميل تاج الشرق يوناتد"
+  },
+  "footer": {
+    "about": "شركة تاج الشرق يوناتد تقدم حلولاً متكاملة في البناء وتأجير المعدات الثقيلة والنقل وتوفير العمالة الماهرة في جميع أنحاء المملكة العربية السعودية.",
+    "companyHeading": "الشركة",
+    "servicesHeading": "الخدمات",
+    "getInTouchHeading": "تواصل معنا",
+    "aboutUs": "من نحن",
+    "ourServices": "خدماتنا",
+    "equipmentLink": "المعدات",
+    "galleryLink": "المعرض",
+    "constructionWorks": "أعمال البناء",
+    "equipmentRental": "تأجير المعدات",
+    "transportation": "النقل",
+    "manpowerSupply": "توفير العمالة",
+    "address": "حي الفروسية، شارع عمر إبراهيم الشجري، جدة، المملكة العربية السعودية",
+    "email": "Info@tajco.com",
+    "phone": "053 861 7608",
+    "copyright": "شركة تاج الشرق يوناتد. جميع الحقوق محفوظة.",
+    "tagline": "البناء وتأجير المعدات الثقيلة — جدة، المملكة العربية السعودية",
+    "facebook": "فيسبوك",
+    "instagram": "إنستغرام",
+    "linkedin": "لينكدإن",
+    "x": "إكس"
+  },
+  "cta": {
+    "letsBuild": "لنبني معاً",
+    "readyToStart": "هل أنت مستعد لبدء مشروعك القادم؟",
+    "getFreeQuote": "احصل على عرض سعر مجاني",
+    "talkToTeam": "تحدث مع فريقنا",
+    "needCustom": "هل تحتاج حزمة خدمات مخصصة؟",
+    "needEquipment": "هل تحتاج معدات محددة؟",
+    "getCustomQuote": "احصل على عرض تأجير مخصص اليوم",
+    "requestQuote": "اطلب عرض سعر",
+    "getInTouch": "تواصل معنا",
+    "seeProject": "شاهد مشروعك على هذه الجدار بعد ذلك"
+  },
+  "stats": {
+    "years": "سنوات الخبرة",
+    "equipment": "وحدة معدات",
+    "projects": "مشروع منجز",
+    "clients": "عميل موثوق"
+  },
+  "marquee": {
+    "construction": "أعمال البناء",
+    "rental": "تأجير المعدات",
+    "transportation": "خدمات النقل",
+    "manpower": "توفير العمالة",
+    "integrated": "حلول متكاملة"
+  },
+  "equipment": {
+    "requestQuote": "اطلب عرض سعر",
+    "viewDetails": "عرض التفاصيل",
+    "filters": {
+      "all": "جميع المعدات",
+      "cranes": "الرافعات والرفع",
+      "earthmoving": "أعمال الحفر",
+      "access": "الوصول الجوي",
+      "power": "الطاقة واللوادرات"
+    }
+  },
+  "gallery": {
+    "filters": {
+      "all": "الكل",
+      "equipment": "المعدات",
+      "site": "أعمال الموقع",
+      "team": "فريقنا"
+    }
+  },
+  "faq": {
+    "commonQuestions": "أسئلة شائعة",
+    "frequentlyAsked": "الأسئلة المتكررة",
+    "cantFind": "لم تجد الإجابة التي تبحث عنها؟ تواصل مع فريقنا مباشرة وسنرد خلال يوم عمل واحد.",
+    "contactTeam": "تواصل مع فريقنا",
+    "stillHave": "لا تزال لديك أسئلة؟ اتصل بنا مباشرة على"
+  },
+  "clients": {
+    "eyebrow": "يثق بنا قادة الصناعة",
+    "heading": "عملاؤنا وشركاؤنا"
+  },
+  "social": {
+    "ariaFacebook": "فيسبوك",
+    "ariaInstagram": "إنستغرام",
+    "ariaLinkedin": "لينكدإن",
+    "ariaX": "إكس"
+  },
+  "accessibility": {
+    "backToTop": "العودة للأعلى",
+    "toggleNav": "تبديل القائمة",
+    "close": "إغلاق",
+    "prev": "السابق",
+    "next": "التالي"
+  },
+  "lang": {
+    "en": "EN",
+    "ar": "AR"
+  }
+}

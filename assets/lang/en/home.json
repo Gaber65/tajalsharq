@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "kicker": "Construction & Equipment Rental — Saudi Arabia",
+    "title": "Heavy Machinery.<br><span class=\"accent\">Skilled Hands.</span> Reliable Results.",
+    "subtitle": "Taj Al Sharq United delivers integrated construction, equipment rental, transportation and manpower solutions — engineered for uptime, safety and on-schedule delivery across the Kingdom.",
+    "cta1": "Request a Quote",
+    "cta2": "View Equipment Fleet",
+    "scroll": "Scroll"
+  },
+  "heroStats": {
+    "years": "Years of Operation",
+    "categories": "Equipment Categories",
+    "projects": "Projects Delivered"
+  },
+  "overview": {
+    "eyebrow": "Who We Are",
+    "title": "A Leading Force In Construction & <span class=\"accent\">Support Services</span>",
+    "lede": "Taj Al Sharq United Company operates across construction and support services, offering integrated solutions that include construction and infrastructure works, equipment rental, and truck transportation, along with specialized labor, operators and drivers.",
+    "check1": "Trusted by industry leaders including Aramco, Hassan Allam and SEC",
+    "check2": "Modern fleet maintained to OEM specifications",
+    "check3": "Certified operators, technicians and site crews",
+    "check4": "Strong commitment to quality, safety and professionalism",
+    "cta": "More About Us",
+    "tagCode": "TSU / 01",
+    "badgeNum": "10+",
+    "badgeCap1": "Years Building",
+    "badgeCap2": "Trust in KSA"
+  },
+  "whyUs": {
+    "eyebrow": "Why Choose Us",
+    "title": "Built On Reliability, <span class=\"accent\">Engineered For Results</span>",
+    "safetyTitle": "Safety First",
+    "safetyDesc": "Every operation follows strict HSE protocols, with certified operators and regularly inspected machinery.",
+    "fleetTitle": "Modern Fleet",
+    "fleetDesc": "A diverse, well-maintained equipment fleet ready to deploy for projects of any scale.",
+    "deliveryTitle": "On-Time Delivery",
+    "deliveryDesc": "Efficient logistics and planning ensure equipment and crews arrive exactly when your project needs them.",
+    "supportTitle": "24/7 Support",
+    "supportDesc": "Our team stays on call to keep your operations running without costly downtime."
+  },
+  "fleet": {
+    "eyebrow": "Our Fleet",
+    "title": "Equipment Categories",
+    "lede": "From earthmoving to aerial access, our fleet covers every phase of your project."
+  },
+  "featured": {
+    "eyebrow": "Featured Machines",
+    "title": "Ready To Deploy On Your Site"
+  },
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "Integrated Services For Every Project Phase",
+    "constructionTitle": "Construction Works",
+    "constructionDesc": "High-quality construction and contracting services focused on safety, precision and timely delivery.",
+    "rentalTitle": "Equipment Rental",
+    "rentalDesc": "A wide range of modern heavy equipment supporting project requirements with efficiency and reliability.",
+    "transportTitle": "Transportation",
+    "transportDesc": "Safe, efficient transport of goods and materials through a reliable fleet of trucks.",
+    "manpowerTitle": "Manpower Supply",
+    "manpowerDesc": "Qualified workers, skilled labor and experienced drivers for projects of every scale.",
+    "integratedTitle": "Integrated Solutions",
+    "integratedDesc": "Complete, end-to-end project solutions tailored to client needs from planning to execution.",
+    "supportTitle": "24/7 Site Support",
+    "supportDesc": "Responsive coordination and maintenance support to keep every site running without delay.",
+    "cta": "Explore All Services"
+  },
+  "testimonials": {
+    "eyebrow": "Client Voices",
+    "title": "What Our Partners <span class=\"accent\">Say</span>",
+    "t1quote": "Taj Al Sharq United mobilized cranes and operators for our site within 48 hours. Their coordination kept our schedule on track from day one.",
+    "t1name": "Hassan Allam Holding",
+    "t1role": "Project Partner",
+    "t1avatar": "HA",
+    "t2quote": "The fleet condition and operator discipline are consistently excellent. A dependable partner for our earthworks and transport needs.",
+    "t2name": "BEC Contracting",
+    "t2role": "Site Director",
+    "t2avatar": "BEC",
+    "t3quote": "Manpower supply was fast and well-qualified. Their team integrated seamlessly with our own crews on a tight industrial schedule.",
+    "t3name": "Talaat Moustafa Group",
+    "t3role": "Operations Lead",
+    "t3avatar": "TMG",
+    "t4quote": "Their transportation division delivered heavy materials on time, every time, with clear communication throughout.",
+    "t4name": "Solb Steel",
+    "t4role": "Logistics Manager",
+    "t4avatar": "SS"
+  },
+  "faq": {
+    "q1": "Which areas of Saudi Arabia do you serve?",
+    "a1": "We are based in Jeddah and serve projects across the Western Region, with capability to mobilize equipment and crews nationwide depending on project scope.",
+    "q2": "Do you provide operators with rented equipment?",
+    "a2": "Yes. All equipment rentals can include certified, experienced operators, or be supplied as dry-hire for clients with their own qualified staff.",
+    "q3": "How quickly can equipment be mobilized to site?",
+    "a3": "Standard mobilization is typically 24–48 hours depending on equipment type and site location, with expedited options available for urgent requirements.",
+    "q4": "What industries do you support?",
+    "a4": "We support commercial construction, infrastructure, industrial, cement, steel and energy-sector projects among others."
+  },
+  "projects": {
+    "eyebrow": "Our Work",
+    "title": "Featured Projects Across The Kingdom",
+    "lede": "A snapshot of recent mobilizations spanning industrial, infrastructure and energy-sector sites throughout Saudi Arabia.",
+    "p1client": "Client: Yamama Cement",
+    "p1title": "Industrial Plant Earthworks &amp; Crane Support",
+    "p1loc": "Jeddah Industrial City",
+    "p2client": "Client: Red Sea Global",
+    "p2title": "Coastal Infrastructure Equipment Mobilization",
+    "p2loc": "Red Sea Coast, Tabuk Region",
+    "p3client": "Client: Al-Ittefaq Steel",
+    "p3title": "Steel Plant Expansion &mdash; Heavy Lifting Operations",
+    "p3loc": "Dammam, Eastern Province",
+    "cta": "Start Your Project With Us"
+  },
+  "galleryPreview": {
+    "eyebrow": "Sites & Machinery",
+    "title": "A Look Inside Our Operations",
+    "cta": "View Full Gallery",
+    "cap1": "Earthworks At Sunset",
+    "cap2": "Excavator Loading",
+    "cap3": "Tower Crane Operation",
+    "cap4": "Site Crew At Work",
+    "cap5": "Excavator Arm Detail",
+    "cap6": "Certified Welding",
+    "cap7": "Site Overview",
+    "cap8": "Loader On Site"
+  },
+  "contactInfo": {
+    "eyebrow": "Get In Touch",
+    "title": "Let's Talk About Your Project",
+    "lede": "Reach out for equipment availability, pricing, or to schedule a site consultation. Our team typically responds within one business day.",
+    "officeLabel": "Head Office",
+    "officeValue": "Al-Furusiyah Dist., Omar Ibrahim Al-Shajri St., Jeddah, Saudi Arabia",
+    "phoneLabel": "Phone",
+    "phoneValue1": "053 861 7608",
+    "phoneValue2": "059 055 3674",
+    "emailLabel": "Email",
+    "emailValue": "Info@tajco.com",
+    "hoursLabel": "Working Hours",
+    "hoursValue": "Sat &ndash; Thu: 7:00 AM &ndash; 6:00 PM",
+    "cta": "Get A Free Quote"
+  },
+  "map": {
+    "eyebrow": "Find Us",
+    "title": "Our Location In Jeddah"
+  },
+  "equipment": {
+    "categories": {
+      "cranes": { "name": "Cranes & Lifting", "count": "Mobile Cranes · Telehandlers" },
+      "earthmoving": { "name": "Earthmoving", "count": "Excavators · Backhoe Loaders" },
+      "access": { "name": "Aerial Access", "count": "Manlifts · Scissor Lifts" },
+      "power": { "name": "Power & Loaders", "count": "Generators · Skid Loaders" }
+    },
+    "1": { "name": "Telehandler 17M", "category": "Lifting Equipment", "spec1": "17m Reach", "spec2": "4T Capacity" },
+    "2": { "name": "Mobile Crane", "category": "Lifting Equipment", "spec1": "30m Boom", "spec2": "25T Capacity" },
+    "3": { "name": "Excavator", "category": "Earthmoving", "spec1": "21T Class", "spec2": "1.1m³ Bucket" },
+    "4": { "name": "Backhoe Loader", "category": "Earthmoving", "spec1": "1CX Class", "spec2": "Dual Function" },
+    "5": { "name": "Generator", "category": "Power Supply", "spec1": "500 KVA", "spec2": "Diesel" },
+    "6": { "name": "Skid Loader S150", "category": "Loaders", "spec1": "0.5m³ Bucket", "spec2": "Compact Frame" }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "foundation": [
+    {
+      "id": "vision",
+      "icon": "bi-binoculars",
+      "titleKey": "foundation.visionTitle",
+      "descKey": "foundation.visionDesc",
+      "delay": 0
+    },
+    {
+      "id": "mission",
+      "icon": "bi-bullseye",
+      "titleKey": "foundation.missionTitle",
+      "descKey": "foundation.missionDesc",
+      "delay": 150
+    },
+    {
+      "id": "values",
+      "icon": "bi-gem",
+      "titleKey": "foundation.valuesTitle",
+      "descKey": "foundation.valuesDesc",
+      "delay": 300
+    }
+  ],
+  "stats": [
+    {
+      "icon": "bi-calendar3",
+      "counter": 10,
+      "labelKey": "stats.years",
+      "delay": 0
+    },
+    {
+      "icon": "bi-truck",
+      "counter": 120,
+      "labelKey": "stats.equipment",
+      "delay": 100
+    },
+    {
+      "icon": "bi-check2-square",
+      "counter": 150,
+      "labelKey": "stats.projects",
+      "delay": 200
+    },
+    {
+      "icon": "bi-people",
+      "counter": 40,
+      "labelKey": "stats.clients",
+      "delay": 300
+    }
+  ],
+  "clients": [
+    { "name": "BEC", "delay": 0 },
+    { "name": "Hassan Allam", "delay": 0 },
+    { "name": "Aramco", "delay": 0 },
+    { "name": "TMG", "delay": 0 },
+    { "name": "Solb Steel", "delay": 0 },
+    { "name": "Red Sea Global", "delay": 0 }
+  ],
+  "whyUsChecks": [
+    { "icon": "bi-patch-check-fill", "key": "whyUs.check1" },
+    { "icon": "bi-patch-check-fill", "key": "whyUs.check2" },
+    { "icon": "bi-patch-check-fill", "key": "whyUs.check3" },
+    { "icon": "bi-patch-check-fill", "key": "whyUs.check4" },
+    { "icon": "bi-patch-check-fill", "key": "whyUs.check5" },
+    { "icon": "bi-patch-check-fill", "key": "whyUs.check6" }
+  ]
+}
